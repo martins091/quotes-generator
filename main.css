@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(60, 65, 70);
+}
+.section{
+    text-align: center;
+    font-size: 30px;
+}
+#input-quotes{
+    height: 35px;
+    width: 4%;
+    border-radius: 12px;
+    border: solid;
+    border-color: rgb(63, 37, 37);
+    font-size: 20px;
+    caret-color: red;
+}
+.submit-button{
+    height: 45px;
+    width: 10%;
+    border-radius: 13px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.clear-button{
+    height: 45px;
+    width: 10%;
+    border-radius: 13px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.clear-button:hover{
+    background-color: rgb(74, 11, 11);
+    color: white;
+    border: solid;
+}
+
+.submit-button:hover{
+    background-color: rgb(74, 11, 11);
+    color: white;
+    border: solid;
+
+}
+.quotes-output{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.quotes-output p{
+    text-align: center;
+}
